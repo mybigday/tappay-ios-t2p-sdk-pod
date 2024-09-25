@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.license                 = { :type => "MIT", :file => "LICENSE" }
   s.authors                 = { "TapPay" => "TapPay" }
   s.platform                = :ios, '13.0'
-  s.static_framework        = true
+  s.static_framework        = false
   s.ios.vendored_frameworks = 'TPSDKT2P.xcframework'
 end
